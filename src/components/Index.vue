@@ -6,19 +6,21 @@ import AboutSec from './AboutSec.vue';
 import ExploreSec from './ExploreSec.vue';
 import FooterPage from './FooterPage.vue';
 import CategorySec from './CategorySec.vue';
+import MenuPage from './MenuPage.vue';
 </script>
 
 <template>
-  <div class="bg-gradient-to-r from-green-900 to-green-500 text-white text-center text-base font-medium cursor-pointer overflow-hidden">
+  <!-- <div class="bg-gradient-to-r from-green-900 to-green-500 text-white text-center text-base font-medium cursor-pointer overflow-hidden">
     
     <span class="inline-block py-2 animate-scroll">
       ✨ Explore Our Ayurvedic Collection – Natural Care for Skin & Hair 🌿
     </span>
 
-  </div>
+  </div> -->
 
-  <HeaderPage />
-  <HeroSection />
+  <!-- <HeaderPage /> -->
+  <MenuPage />
+  <!-- <HeroSection /> -->
   <FeaturedProduct />
   <AboutSec />
   <CategorySec />
